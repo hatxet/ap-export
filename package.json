@@ -1,0 +1,21 @@
+{
+	"name": "ap-export",
+	"version": "1.0.0",
+	"description": "Anime Planet Export Tool",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js"
+	},
+	"author": "Heine Frade",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hatxet/ap-export"
+	},
+	"dependencies": {
+		"cheerio": "^1.0.0-rc.2",
+		"nedb": "^1.8.0",
+		"request": "^2.83.0",
+		"request-promise": "^4.2.2"
+	}
+}
